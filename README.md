@@ -17,5 +17,5 @@ To use this workflow, enter a CSV file containing 3 columns of data from differe
 
 ## data
 
-+ **LINCS_L1000_Chem_Pert.Rda** - contains cleaned Enrichr LINCS L1000 up-regulated and down-regulated gene lists in the form of matrices and lists
-+ **new_moa.csv** - contains mapping of drugs to mechanisms of action from clue.io, L1000 FWD, and chemical database
++ **LINCS_L1000_Chem_Pert.Rda** - contains cleaned [Enrichr](https://maayanlab.cloud/Enrichr/#stats) LINCS L1000 up-regulated and down-regulated gene lists in the form of matrices and lists
++ **new_moa.csv** - contains mapping of drugs to mechanisms of action from [clue.io](https://clue.io/data/REP#REP), [L1000 FWD](https://maayanlab.cloud/L1000FWD/), chemical supplier website (e.g., Tocris, Sigma Aldrich), and literature
