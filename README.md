@@ -2,7 +2,7 @@
 
 A web server-based application can be found [here](http://jessbwhite.shinyapps.io/shiny_app).
 
-## Instructions
+## Call application in R
 
 ```
 library(shiny)
