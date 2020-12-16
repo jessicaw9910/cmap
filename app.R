@@ -8,10 +8,10 @@ library(ggrepel)
 library(DT)
 
 # load data ---------------------------------------------
-#setwd(dirname(getActiveDocumentContext()$path))
+# setwd(dirname(getActiveDocumentContext()$path))
 
 ## load Enrichr gene list data
-load("data/LINCS_L1000_Chem_Pert.Rda", verbose = TRUE)
+load("data/LINCS_L1000_Chem_Pert_LITE.Rda", verbose = TRUE)
 
 ## load MOA dataframe
 df_new_moa <- read.csv("data/new_moa.csv",
