@@ -1,6 +1,6 @@
-# Connectivity Mapping Application
+# Connectivity Mapping (cmap) Application
 
-A web server-based application can be found [here](http://jessbwhite.shinyapps.io/shiny_app).
+A web server-based application can be found [here](https://jessbwhite.shinyapps.io/cmap/).
 
 ## Call application in R
 

@@ -1,6 +1,6 @@
 # load packages -----------------------------------------
-library(shiny)
-library(rstudioapi)
+# library(shiny)
+# library(rstudioapi)
 library(fgsea)
 library(dplyr)
 library(ggplot2)
@@ -54,11 +54,11 @@ ui <- fluidPage(
                    selected = ","),
       
       # Input: Select quotes ----
-      radioButtons("quote", "Quote",
-                   choices = c(None = "",
-                               "Double " = '"',
-                               "Single Quote" = "'"),
-                   selected = '"'),
+      # radioButtons("quote", "Quote",
+      #              choices = c("None" = "",
+      #                          "Double Quote" = '"',
+      #                          "Single Quote" = "'"),
+      #              selected = '"'),
       
       # Horizontal line ----
       tags$hr(),
@@ -176,8 +176,8 @@ server <- function(input, output) {
     
     df <- read.csv(input$file1$datapath,
                    header = input$header,
-                   sep = input$sep,
-                   quote = input$quote)
+                   sep = input$sep)
+                   # quote = input$quote)
     
     df$rank <- Map(function(num1, num2) sign(num1)*-log10(num2), 
                    df[, 2],
